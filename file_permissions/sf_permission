@@ -1,0 +1,19 @@
+#!/bin/bash
+
+filfol="sf_permission"
+ls -l $filfol
+
+chmod 270 $filfol
+echo "the exit code was: $?"
+ls -l $filfol
+chmod 770 $filfol
+ls -l $filfol
+echo "the exit code was: $?"
+chmod 427 $filfol
+echo "the exit code was : $?"
+chmod 070 $filfol
+ls -l $filfol 
+echo "the exit code was: $?"
+chmod 700 $filfol
+echo "the exit code was: $?"
+ls -l sf_permission
