@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Enter any number: "
+read num
+mynum=1
+
+while [ $mynum -le $num ]
+do 
+   echo "$mynum"
+   mynum=$((mynum +1))
+done

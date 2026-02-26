@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+echo "Enter any number: "
+read num
+echo "=============================="
+echo "MULTIPLICATION TABLE OF $num"
+echo "=============================="
+start=1
+while [ $start -le 10 ]
+do
+  result=$((num * start))
+  echo "$num x $start = $result"
+  start=$((start +1))
+done

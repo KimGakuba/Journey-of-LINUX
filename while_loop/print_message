@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+message="Hello Linux"
+count=5
+
+while [ $count -ge 1 ]
+do 
+   echo "$message"
+   count=$((count -1))
+done

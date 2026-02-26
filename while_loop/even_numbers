@@ -1,0 +1,9 @@
+#!/bin/bash
+
+even=0
+
+while [ $even -le 8 ]
+do
+   even=$((even +2))
+   echo "$even"
+done

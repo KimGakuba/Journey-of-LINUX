@@ -1,0 +1,9 @@
+#!/bin/bash
+
+nume=1
+
+while [ $nume -le 10 ]
+do
+    echo "$nume"
+    nume=$((nume +1))
+done

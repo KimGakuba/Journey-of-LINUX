@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Enter any number: "
+read input
+total=0
+while [ $input -ge 0 ]
+do
+   total=$((input +total))
+   input=$((input -1))
+done
+echo "$total"
